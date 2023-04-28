@@ -1,0 +1,13 @@
+Issue ID,URL,Title,State,Description,Author,Author Username,Assignee,Assignee Username,Confidential,Locked,Due Date,Created At (UTC),Updated At (UTC),Closed At (UTC),Milestone,Weight,Labels,Time Estimate,Time Spent
+7,https://costa.ls.fi.upm.es/gitlab/190161/sokoban/-/issues/7,Menu,Open,"With:
+- New game
+- Restart
+- Undo
+- Save
+- Open save
+- Exit","HERRERO LÁZARO, ELÍAS",190161,"","",No,No,,2022-04-20 17:27:24,2022-05-25 13:13:09,,Sprint 2,,"Open,feature,medium",0,0
+10,https://costa.ls.fi.upm.es/gitlab/190161/sokoban/-/issues/10,Load,Open,Related to #7.,"HERRERO LÁZARO, ELÍAS",190161,"","",No,No,,2022-04-20 17:35:50,2022-05-23 23:41:06,,Sprint 2,,"Open,medium,user-story",0,0
+40,https://costa.ls.fi.upm.es/gitlab/190161/sokoban/-/issues/40,Divide the controller class in nested classes,Open,"","RIESGO DOS SANTOS, DANIEL",180459,"","",No,No,,2022-05-22 13:07:07,2022-05-22 13:07:07,,Sprint 2,,"Open,low,work-item",0,0
+42,https://costa.ls.fi.upm.es/gitlab/190161/sokoban/-/issues/42,Divide ViewImpl for readability,Open,"","HERRERO LÁZARO, ELÍAS",190161,"","",No,No,,2022-05-23 23:40:44,2022-05-23 23:40:56,,Sprint 2,,"Open,low,work-item",0,0
+44,https://costa.ls.fi.upm.es/gitlab/190161/sokoban/-/issues/44,Pair can't be unmarshalled,Open,"","HERRERO LÁZARO, ELÍAS",190161,"","",No,No,,2022-05-25 13:11:10,2022-05-25 13:11:10,,Sprint 2,,"Open,bug,medium",0,0
+46,https://costa.ls.fi.upm.es/gitlab/190161/sokoban/-/issues/46,Save system doesn't work properly,Open,"","HERRERO LÁZARO, ELÍAS",190161,"","",No,No,,2022-05-30 20:04:39,2022-05-30 20:07:57,,Sprint 2,,"Open,bug,high",0,0

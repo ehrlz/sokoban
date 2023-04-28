@@ -1,0 +1,15 @@
+tmp
+*~ 
+target
+*.class
+.classpath
+.project
+.settings
+log
+files
+/bin/
+.metadata
+token.txt
+.vscode
+dependency-reduced-pom.xml
+backup

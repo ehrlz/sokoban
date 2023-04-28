@@ -1,0 +1,12 @@
+Issue ID,URL,Title,State,Description,Author,Author Username,Assignee,Assignee Username,Confidential,Locked,Due Date,Created At (UTC),Updated At (UTC),Closed At (UTC),Milestone,Weight,Labels,Time Estimate,Time Spent
+7,https://costa.ls.fi.upm.es/gitlab/190161/sokoban/-/issues/7,Menu,Open,"With:
+- New game
+- Restart
+- Undo
+- Save
+- Open save
+- Exit","HERRERO LÁZARO, ELÍAS",190161,"","",No,No,,2022-04-20 17:27:24,2022-06-05 11:54:21,,Sprint 2,,"Open,feature,medium",0,0
+40,https://costa.ls.fi.upm.es/gitlab/190161/sokoban/-/issues/40,Divide the controller class in nested classes,Open,"","RIESGO DOS SANTOS, DANIEL",180459,"","",No,No,,2022-05-22 13:07:07,2022-05-22 13:07:07,,Sprint 2,,"Open,low,work-item",0,0
+42,https://costa.ls.fi.upm.es/gitlab/190161/sokoban/-/issues/42,Divide ViewImpl for readability,Open,"","HERRERO LÁZARO, ELÍAS",190161,"","",No,No,,2022-05-23 23:40:44,2022-05-23 23:40:56,,Sprint 2,,"Open,low,work-item",0,0
+49,https://costa.ls.fi.upm.es/gitlab/190161/sokoban/-/issues/49,Menu - View bug: button size,Open,Related to #7.,"RIESGO DOS SANTOS, DANIEL",180459,"","",No,No,,2022-06-05 11:54:21,2022-06-05 11:54:21,,Sprint 2,,"Open,bug,high",0,0
+52,https://costa.ls.fi.upm.es/gitlab/190161/sokoban/-/issues/52,Visual bug,Open,Images matrix display with borders between them,"HERRERO LÁZARO, ELÍAS",190161,"","",No,No,,2022-06-08 00:16:44,2022-06-08 00:16:44,,Sprint 2,,"Open,bug,high",0,0
