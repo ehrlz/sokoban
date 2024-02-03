@@ -3,6 +3,8 @@ Sokoban is a classic puzzle game where the player controls a character who must 
 
 This project is a Java implementation of the Sokoban game, featuring a graphical user interface and various game mechanics.
 
+![sokoban](https://github.com/ehrlz/sokoban/assets/62675568/489c6f2c-5fab-4840-a0dc-a0f84b0bae2d)
+
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white)
 
 ## Table of Contents
