@@ -1,0 +1,10 @@
+# Changelog
+
+## Version 0.1 Starting point
+- [+] Movement
+- [+] Tile based graphics
+- [+] Load/Save
+- [+] Undo
+- [+] Restart
+- [+] Loading levels and managing bad formed levels
+- [+] Score
