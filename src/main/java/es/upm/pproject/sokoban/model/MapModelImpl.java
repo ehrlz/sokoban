@@ -73,49 +73,46 @@ public class MapModelImpl implements MapModel {
 		BufferedReader bufReader = new BufferedReader(fr);
 
 		try {
+			String line;
 			mapLevelName = bufReader.readLine();
 
-			char[] dimensions = new char[4];
-
 			// nRows <white_space> nColumns <new_line>
-			bufReader.read(dimensions, 0, 4);
-			int nRows = Character.getNumericValue(dimensions[0]);
-			int nColumns = Character.getNumericValue(dimensions[2]);
+			line = bufReader.readLine();
+			int nRows = Character.getNumericValue(line.charAt(0));
+			int nColumns = Character.getNumericValue(line.charAt(2));
 
 			mapDimensions = new Pair(nRows, nColumns);
 			mapRes = new MapElement[nRows][nColumns];
 
 			// character readen from the txt level file
-			int c;
-			for (int i = 0; i < nRows; i++) {
-				for (int j = 0; j <= nColumns; j++) {
-					c = bufReader.read();
-					if (j != nColumns) {
-						switch ((char) c) {
-							case '+':
-								mapRes[i][j] = MapElement.WALL;
-								break;
-							case '.':
-								mapRes[i][j] = MapElement.EMPTY;
-								break;
-							case '*':
-								numGoal++;
-								mapRes[i][j] = MapElement.GOAL;
-								break;
-							case '#':
-								numBox++;
-								mapRes[i][j] = MapElement.BOX;
-								break;
-							case 'W':
-								numWarehouseMan++;
-								mapRes[i][j] = MapElement.WAREHOUSE_MAN;
-								break;
-							default:
-								break;
-						}
-					}
-				}
-			}
+        	for (int i = 0; i < nRows; i++) {
+        	    line = bufReader.readLine();
+        	    for (int j = 0; j < nColumns; j++) {
+        	        char c = line.charAt(j);
+        	        switch (c) {
+        	            case '+':
+        	                mapRes[i][j] = MapElement.WALL;
+        	                break;
+        	            case '.':
+        	                mapRes[i][j] = MapElement.EMPTY;
+        	                break;
+        	            case '*':
+        	                numGoal++;
+        	                mapRes[i][j] = MapElement.GOAL;
+        	                break;
+        	            case '#':
+        	                numBox++;
+        	                mapRes[i][j] = MapElement.BOX;
+        	                break;
+        	            case 'W':
+        	                numWarehouseMan++;
+        	                mapRes[i][j] = MapElement.WAREHOUSE_MAN;
+        	                break;
+        	            default:
+        	                break;
+        	        }
+        	    }
+        	}
 
 		} catch (IOException e) {
 			logger.error("Error while parsing the map of level number {}.", numLevel);
